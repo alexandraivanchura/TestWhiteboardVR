@@ -1,0 +1,2 @@
+"Name","Platform","Compiles","CompilesDouble","Uses","UsesDouble","PermutationString"
+"/Game/WhiteBoard/M_MarkerBlue.M_MarkerBlue","21","2","0","0","0","Compiling M_MarkerBlue: Platform=VULKAN_ES3_1_ANDROID, Usage=LightingModel=MSM_Unlit, BlendMode=BLEND_Additive, SpecialEngine=0, TwoSided=0, TSNormal=1, Masked=0, Distorted=0, WritesEveryPixel=1, ModifiesMeshPosition=0, Usage={}"
