@@ -1,10 +1,10 @@
 {
 	"SourceFiles": [
-		"D:\\ivanchura\\WhiteboardTest\\Intermediate\\Source\\TestWhiteBoard.Build.cs",
-		"D:\\ivanchura\\WhiteboardTest\\Intermediate\\Source\\TestWhiteBoard.Target.cs",
-		"D:\\ivanchura\\WhiteboardTest\\Intermediate\\Source\\TestWhiteBoardClient.Target.cs",
-		"D:\\ivanchura\\WhiteboardTest\\Intermediate\\Source\\TestWhiteBoardEditor.Target.cs",
-		"D:\\ivanchura\\WhiteboardTest\\Intermediate\\Source\\TestWhiteBoardServer.Target.cs"
+		"I:\\Work\\WhiteboardTest\\Intermediate\\Source\\TestWhiteBoard.Build.cs",
+		"I:\\Work\\WhiteboardTest\\Intermediate\\Source\\TestWhiteBoard.Target.cs",
+		"I:\\Work\\WhiteboardTest\\Intermediate\\Source\\TestWhiteBoardClient.Target.cs",
+		"I:\\Work\\WhiteboardTest\\Intermediate\\Source\\TestWhiteBoardEditor.Target.cs",
+		"I:\\Work\\WhiteboardTest\\Intermediate\\Source\\TestWhiteBoardServer.Target.cs"
 	],
 	"EngineVersion": "5.5.4"
 }

@@ -95,11 +95,11 @@
 -DPLATFORM_ANDROID_ARM64=1
 -march=armv8-a
 -fsigned-char
--include-pch "D:\\ivanchura\\WhiteboardTest\\Intermediate\\Build\\Android\\a\\TestWhiteBoard\\Development\\CoreUObject\\SharedPCH.CoreUObject.Cpp20.h.gch"
+-include-pch "I:\\Work\\WhiteboardTest\\Intermediate\\Build\\Android\\a\\TestWhiteBoard\\Development\\CoreUObject\\SharedPCH.CoreUObject.Cpp20.h.gch"
 -x c++-header
 -fpch-instantiate-templates
 -std=c++20
 -fpch-validate-input-files-content
-"D:\\ivanchura\\WhiteboardTest\\Intermediate\\Build\\Android\\a\\TestWhiteBoard\\Development\\Slate\\SharedPCH.Slate.Cpp20.h"
--MD -MF"D:\\ivanchura\\WhiteboardTest\\Intermediate\\Build\\Android\\a\\TestWhiteBoard\\Development\\Slate\\SharedPCH.Slate.Cpp20.h.d"
--o "D:\\ivanchura\\WhiteboardTest\\Intermediate\\Build\\Android\\a\\TestWhiteBoard\\Development\\Slate\\SharedPCH.Slate.Cpp20.h.gch"
+"I:\\Work\\WhiteboardTest\\Intermediate\\Build\\Android\\a\\TestWhiteBoard\\Development\\Slate\\SharedPCH.Slate.Cpp20.h"
+-MD -MF"I:\\Work\\WhiteboardTest\\Intermediate\\Build\\Android\\a\\TestWhiteBoard\\Development\\Slate\\SharedPCH.Slate.Cpp20.h.d"
+-o "I:\\Work\\WhiteboardTest\\Intermediate\\Build\\Android\\a\\TestWhiteBoard\\Development\\Slate\\SharedPCH.Slate.Cpp20.h.gch"

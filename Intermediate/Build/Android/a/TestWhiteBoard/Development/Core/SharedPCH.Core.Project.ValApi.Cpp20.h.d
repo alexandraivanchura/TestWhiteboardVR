@@ -1,6 +1,6 @@
-D:\ivanchura\WhiteboardTest\Intermediate\Build\Android\a\TestWhiteBoard\Development\Core\SharedPCH.Core.Project.ValApi.Cpp20.h.gch: \
-  D:/ivanchura/WhiteboardTest/Intermediate/Build/Android/a/TestWhiteBoard/Development/Core/SharedPCH.Core.Project.ValApi.Cpp20.h \
-  D:/ivanchura/WhiteboardTest/Intermediate/Build/Android/a/TestWhiteBoard/Development/Core/SharedDefinitions.Core.Project.ValApi.Cpp20.h \
+I:\Work\WhiteboardTest\Intermediate\Build\Android\a\TestWhiteBoard\Development\Core\SharedPCH.Core.Project.ValApi.Cpp20.h.gch: \
+  I:/Work/WhiteboardTest/Intermediate/Build/Android/a/TestWhiteBoard/Development/Core/SharedPCH.Core.Project.ValApi.Cpp20.h \
+  I:/Work/WhiteboardTest/Intermediate/Build/Android/a/TestWhiteBoard/Development/Core/SharedDefinitions.Core.Project.ValApi.Cpp20.h \
   Runtime/Core/Public/CoreSharedPCH.h Runtime/Core/Public/Algo/Reverse.h \
   Runtime/Core/Public/CoreTypes.h Runtime/Core/Public/HAL/Platform.h \
   Runtime/Core/Public/Misc/Build.h \

@@ -183,9 +183,9 @@
 -fno-short-enums
 -fforce-emit-vtables
 -D_FORTIFY_SOURCE=2
--DPLATFORM_USED_NDK_VERSION_INTEGER=29
+-DPLATFORM_USED_NDK_VERSION_INTEGER=32
 -DPLATFORM_64BITS=1
- --target=aarch64-none-linux-android29 --gcc-toolchain="C:/Users/lasko/AppData/Local/Android/Sdk/ndk/25.1.8937393\toolchains/llvm\prebuilt/windows-x86_64" --sysroot="C:/Users/lasko/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -DANDROID=1
+ --target=aarch64-none-linux-android32 --gcc-toolchain="C:/Users/lasko/AppData/Local/Android/Sdk/ndk/25.1.8937393\toolchains/llvm\prebuilt/windows-x86_64" --sysroot="C:/Users/lasko/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -DANDROID=1
 -D__arm64__
 -DPLATFORM_ANDROID_ARM64=1
 -march=armv8-a

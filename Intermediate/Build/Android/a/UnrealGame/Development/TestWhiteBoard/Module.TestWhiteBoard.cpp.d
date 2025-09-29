@@ -1,4 +1,4 @@
-D:\ivanchura\WhiteboardTest\Intermediate\Build\Android\a\UnrealGame\Development\TestWhiteBoard\Module.TestWhiteBoard.cpp.o: \
+I:\Work\WhiteboardTest\Intermediate\Build\Android\a\UnrealGame\Development\TestWhiteBoard\Module.TestWhiteBoard.cpp.o: \
   D:/Program\ Files/Epic\ Games/UE_5.5/Engine/Source/Runtime/Core/Public/UObject/PropertyPortFlags.h \
   D:/Program\ Files/Epic\ Games/UE_5.5/Engine/Source/Runtime/Core/Public/UObject/DebugSerializationFlags.h \
   D:/Program\ Files/Epic\ Games/UE_5.5/Engine/Source/Runtime/Core/Public/Templates/ScopedCallback.h \
@@ -500,8 +500,8 @@ D:\ivanchura\WhiteboardTest\Intermediate\Build\Android\a\UnrealGame\Development\
   D:/Program\ Files/Epic\ Games/UE_5.5/Engine/Source/Runtime/Core/Public/CoreTypes.h \
   D:/Program\ Files/Epic\ Games/UE_5.5/Engine/Source/Runtime/Core/Public/Algo/Reverse.h \
   D:/Program\ Files/Epic\ Games/UE_5.5/Engine/Source/Runtime/Core/Public/CoreSharedPCH.h \
-  D:/ivanchura/WhiteboardTest/Intermediate/Build/Android/a/TestWhiteBoard/Development/Core/SharedDefinitions.Core.Project.ValApi.Cpp20.h \
-  D:/ivanchura/WhiteboardTest/Intermediate/Build/Android/a/TestWhiteBoard/Development/Core/SharedPCH.Core.Project.ValApi.Cpp20.h \
+  I:/Work/WhiteboardTest/Intermediate/Build/Android/a/TestWhiteBoard/Development/Core/SharedDefinitions.Core.Project.ValApi.Cpp20.h \
+  I:/Work/WhiteboardTest/Intermediate/Build/Android/a/TestWhiteBoard/Development/Core/SharedPCH.Core.Project.ValApi.Cpp20.h \
   C:/Users/lasko/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/initializer_list \
   C:/Users/lasko/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__config \
   C:/Users/lasko/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/features.h \
@@ -663,8 +663,8 @@ D:\ivanchura\WhiteboardTest\Intermediate\Build\Android\a\UnrealGame\Development\
   C:/Users/lasko/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include/sanitizer/common_interface_defs.h \
   C:/Users/lasko/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include/arm_neon.h \
   C:/Users/lasko/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/jni.h \
-  D:/ivanchura/WhiteboardTest/Intermediate/Build/Android/a/UnrealGame/Development/TestWhiteBoard/Module.TestWhiteBoard.cpp \
-  D:/ivanchura/WhiteboardTest/Intermediate/Build/Android/a/UnrealGame/Development/TestWhiteBoard/Definitions.TestWhiteBoard.h \
-  D:/ivanchura/WhiteboardTest/Intermediate/Source/TestWhiteBoard.cpp \
+  I:/Work/WhiteboardTest/Intermediate/Build/Android/a/UnrealGame/Development/TestWhiteBoard/Module.TestWhiteBoard.cpp \
+  I:/Work/WhiteboardTest/Intermediate/Build/Android/a/UnrealGame/Development/TestWhiteBoard/Definitions.TestWhiteBoard.h \
+  I:/Work/WhiteboardTest/Intermediate/Source/TestWhiteBoard.cpp \
   Runtime/Core/Public/CoreTypes.h \
   Runtime/Core/Public/Modules/ModuleManager.h

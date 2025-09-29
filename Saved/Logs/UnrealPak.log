@@ -1,10 +1,10 @@
-﻿Log file open, 09/24/25 16:10:11
+﻿Log file open, 09/29/25 12:41:39
 LogTrace: Initializing trace...
 LogTrace: Finished trace initialization.
 LogInit: Session CrashGUID >====================================================
-         Session CrashGUID >   UECC-Windows-837D8EFC4F5CF0E73EC3CCA186D5C637
+         Session CrashGUID >   UECC-Windows-15E5FBB64833754002B8419D2D4A066E
          Session CrashGUID >====================================================
-LogConfig: No local boot hotfix file found at: [../../../../../../ivanchura/WhiteboardTest/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogConfig: No local boot hotfix file found at: [I:/Work/WhiteboardTest/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
 LogPluginManager: Mounting Engine plugin PlatformCrypto
 LogInit: ExecutableName: UnrealPak.exe
 LogInit: Build: ++UE5+Release-5.5-CL-40574608
@@ -20,7 +20,7 @@ LogInit: Architecture: x64
 LogInit: Compiled with Visual C++: 19.38.33130.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE5+Release-5.5
-LogInit: Command Line: -CreateGlobalContainer=D:\ivanchura\WhiteboardTest\Saved\StagedBuilds\Android_ASTC\TestWhiteBoard\Content\Paks\global.utoc -PackageStoreManifest=D:\ivanchura\WhiteboardTest\Saved\Cooked\Android_ASTC\TestWhiteBoard\Metadata\packagestore.manifest -CookedDirectory=D:\ivanchura\WhiteboardTest\Saved\Cooked\Android_ASTC -Commands="C:\Users\lasko\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Program+Files+Epic+Games+UE_5.5\IoStoreCommands.txt" -ScriptObjects=D:\ivanchura\WhiteboardTest\Saved\Cooked\Android_ASTC\TestWhiteBoard\Metadata\scriptobjects.bin -patchpaddingalign=0 -compressionformats=Oodle -compresslevel=4 -compressmethod=Mermaid -cryptokeys=D:\ivanchura\WhiteboardTest\Saved\Cooked\Android_ASTC\TestWhiteBoard\Metadata\Crypto.json -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -nopak
+LogInit: Command Line: -CreateGlobalContainer=I:\Work\WhiteboardTest\Saved\StagedBuilds\Android_ASTC\TestWhiteBoard\Content\Paks\global.utoc -PackageStoreManifest=I:\Work\WhiteboardTest\Saved\Cooked\Android_ASTC\TestWhiteBoard\Metadata\packagestore.manifest -CookedDirectory=I:\Work\WhiteboardTest\Saved\Cooked\Android_ASTC -Commands="C:\Users\lasko\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Program+Files+Epic+Games+UE_5.5\IoStoreCommands.txt" -ScriptObjects=I:\Work\WhiteboardTest\Saved\Cooked\Android_ASTC\TestWhiteBoard\Metadata\scriptobjects.bin -patchpaddingalign=0 -compressionformats=Oodle -compresslevel=4 -compressmethod=Mermaid -cryptokeys=I:\Work\WhiteboardTest\Saved\Cooked\Android_ASTC\TestWhiteBoard\Metadata\Crypto.json -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -nopak
 LogInit: Base Directory: D:/Program Files/Epic Games/UE_5.5/Engine/Binaries/Win64/
 LogInit: Allocator: Mimalloc
 LogInit: Installed Engine Build: 1
@@ -61,163 +61,164 @@ LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 51
 LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
 LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
 LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
-LogConfig: Branch 'PlatformCrypto' had been unloaded. Reloading on-demand took 0.56ms
+LogConfig: Branch 'PlatformCrypto' had been unloaded. Reloading on-demand took 0.31ms
 LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC.
 LogInit: Object subsystem initialized
 LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-LogConfig: CVar [[r.DumpShaderDebugInfo:2]] deferred - dummy variable created
-LogConfig: CVar [[p.chaos.AllowCreatePhysxBodies:1]] deferred - dummy variable created
-LogConfig: CVar [[fx.SkipVectorVMBackendOptimizations:1]] deferred - dummy variable created
-LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
-LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
-LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
-LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
-[2025.09.24-13.10.11:277][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
-[2025.09.24-13.10.11:277][  0]LogInit: Computer: DESKTOP-RI1LMAT
-[2025.09.24-13.10.11:277][  0]LogInit: User: AppleWhite
-[2025.09.24-13.10.11:277][  0]LogInit: CPU Page size=4096, Cores=6
-[2025.09.24-13.10.11:277][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2025.09.24-13.10.11:592][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
-[2025.09.24-13.10.11:592][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=33.9GB
-[2025.09.24-13.10.11:592][  0]LogMemory: Platform Memory Stats for WindowsEditor
-[2025.09.24-13.10.11:592][  0]LogMemory: Process Physical Memory: 54.48 MB used, 55.09 MB peak
-[2025.09.24-13.10.11:592][  0]LogMemory: Process Virtual Memory: 111.20 MB used, 111.20 MB peak
-[2025.09.24-13.10.11:592][  0]LogMemory: Physical Memory: 8183.11 MB used,  8147.19 MB free, 16330.30 MB total
-[2025.09.24-13.10.11:592][  0]LogMemory: Virtual Memory: 16941.52 MB used,  17820.77 MB free, 34762.30 MB total
-[2025.09.24-13.10.11:598][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
-[2025.09.24-13.10.11:598][  0]LogUObjectArray: 438 objects as part of root set at end of initial load.
-[2025.09.24-13.10.11:598][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2025.09.24-13.10.11:598][  0]LogInit: Using OS detected language ().
-[2025.09.24-13.10.11:598][  0]LogInit: Using OS detected locale ().
-[2025.09.24-13.10.11:599][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
-[2025.09.24-13.10.11:599][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
-[2025.09.24-13.10.11:599][  0]LogInit: Using OS detected language ().
-[2025.09.24-13.10.11:599][  0]LogInit: Using OS detected locale ().
-[2025.09.24-13.10.11:599][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
-[2025.09.24-13.10.11:599][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
-[2025.09.24-13.10.11:599][  0]LogPakFile: Display: ProjectDir: ../../../../../../ivanchura/WhiteboardTest/
-[2025.09.24-13.10.11:638][  0]LogIoStore: Display: ==================== IoStore Utils ====================
-[2025.09.24-13.10.11:653][  0]LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'D:\ivanchura\WhiteboardTest\Saved\Cooked\Android_ASTC\TestWhiteBoard\Metadata\Crypto.json'
-[2025.09.24-13.10.11:655][  0]LogIoStore: Display: Container signing - DISABLED
-[2025.09.24-13.10.11:655][  0]LogIoStore: Display: Directory index - ENABLED
-[2025.09.24-13.10.11:655][  0]LogIoStore: Display: Using compression format 'Oodle'
-[2025.09.24-13.10.11:655][  0]LogIoStore: Display: Using memory mapping alignment '16384'
-[2025.09.24-13.10.11:655][  0]LogIoStore: Display: Using compression block size '65536'
-[2025.09.24-13.10.11:655][  0]LogIoStore: Display: Using compression block alignment '0'
-[2025.09.24-13.10.11:655][  0]LogIoStore: Display: Using compression min bytes saved '1024'
-[2025.09.24-13.10.11:655][  0]LogIoStore: Display: Using compression min percent saved '5'
-[2025.09.24-13.10.11:655][  0]LogIoStore: Display: Using max partition size '0'
-[2025.09.24-13.10.11:655][  0]LogIoStore: Display: Not using DDC for compression
-[2025.09.24-13.10.11:655][  0]LogIoStore: Display: Using command list file: 'C:\Users\lasko\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Program+Files+Epic+Games+UE_5.5\IoStoreCommands.txt'
-[2025.09.24-13.10.11:675][  0]LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
-[2025.09.24-13.10.11:723][  0]LogIoStore: Display: Fetched 665 oplog items from Manifest in 0.05 seconds
-[2025.09.24-13.10.11:749][  0]LogIoStore: Display: Parsed 665 oplog items 0.03 seconds, 853 chunks
-[2025.09.24-13.10.11:762][  0]LogIoStore: Display: Using input asset registry: D:/ivanchura/WhiteboardTest/Saved/Cooked/Android_ASTC/TestWhiteBoard/Metadata/DevelopmentAssetRegistry.bin
-[2025.09.24-13.10.11:784][  0]LogIoStore: Display: Loaded 190 chunk hashes from AssetRegistry in 0.04 seconds, 190 hashes updated in 0.00 seconds
-[2025.09.24-13.10.11:799][  0]LogIoStore: Display: Searching for cooked assets in folder 'D:\ivanchura\WhiteboardTest\Saved\Cooked\Android_ASTC'
-[2025.09.24-13.10.11:809][  0]LogIoStore: Display: Found '1515' files
-[2025.09.24-13.10.11:828][  0]LogIoStore: Display: Creating container targets...
-[2025.09.24-13.10.11:831][  0]OodleDataCompression: Display: Oodle v2.9.12 format for pak/iostore with method=Mermaid, level=4=Normal
-[2025.09.24-13.10.11:892][  0]LogIoStore: Display: Parsing packages...
-[2025.09.24-13.10.11:892][  0]LogIoStore: Display: Reading package assets...
-[2025.09.24-13.10.11:900][  0]LogIoStore: Display: Packages read 653 files in 0.01 seconds, 1,030,855 total bytes, 127,693,271 bytes per second
-[2025.09.24-13.10.11:905][  0]LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
-[2025.09.24-13.10.11:929][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 155 groups (66 of them didn't need new indices), average uncompressed size 114195 bytes, min 489 bytes, max 957390 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
-[2025.09.24-13.10.12:112][  0]LogIoStore: Display: Global-SF_VULKAN_ES31_ANDROID(VULKAN_ES3_1_ANDROID): Recompressed 1433 shaders as 155 groups. Library size changed from 4972 KB (3.48 : 1 ratio) to 3393 KB (5.09 : 1 ratio), 68.24% of previous.
-[2025.09.24-13.10.12:121][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 186 groups (67 of them didn't need new indices), average uncompressed size 202114 bytes, min 325 bytes, max 980800 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
-[2025.09.24-13.10.12:504][  0]LogIoStore: Display: TestWhiteBoard-SF_VULKAN_ES31_ANDROID(VULKAN_ES3_1_ANDROID): Recompressed 1486 shaders as 186 groups. Library size changed from 9407 KB (3.90 : 1 ratio) to 7337 KB (5.00 : 1 ratio), 78.00% of previous.
-[2025.09.24-13.10.12:506][  0]LogIoStore: Display: Shaders processed in 0.60 seconds
-[2025.09.24-13.10.12:507][  0]LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=6 (12 cores), MaxSourceBufferMemory=3072MiB
-[2025.09.24-13.10.12:509][  0]LogIoStore: Display: Processing redirects...
-[2025.09.24-13.10.12:509][  0]LogIoStore: Display: Creating disk layout...
-[2025.09.24-13.10.12:510][  0]LogIoStore: Display: Ordered 653 packages using fallback bundle order
-[2025.09.24-13.10.12:541][  0]LogIoStore: Display: Serializing container(s)...
-[2025.09.24-13.10.13:028][  0]LogIoStore: Display: Writing and compressing took 0.45 seconds, writes to disk took 0.20 seconds for 98,528,304 bytes @ 491,742,123 bytes per second.
-[2025.09.24-13.10.13:028][  0]LogIoStore: Display: global: Found perfect hashmap for 1 items.
-[2025.09.24-13.10.13:028][  0]LogIoStore: Display: TestWhiteBoard-Android_ASTC: Found perfect hashmap for 1192 items.
-[2025.09.24-13.10.13:455][  0]LogIoStore: Display: Finalize took 0.4 seconds for 2 writers to write 150,996 bytes, 352,638 bytes per second
-[2025.09.24-13.10.13:455][  0]LogIoStore: Display: Writing tocs... [Physical: 544 MiB, Virtual: 3350 MiB]
-[2025.09.24-13.10.13:455][  0]LogIoStore: Display: 190 / 1,193 hashes were loaded from the hash database, by type:
-[2025.09.24-13.10.13:455][  0]LogIoStore: Display:     BulkData                   190
-[2025.09.24-13.10.13:455][  0]LogIoStore: Display: 843 / 1,193 chunks attempted to compress, by type:
-[2025.09.24-13.10.13:455][  0]LogIoStore: Display:     ExportBundleData           653 / 653
-[2025.09.24-13.10.13:455][  0]LogIoStore: Display:     BulkData                   190 / 190
-[2025.09.24-13.10.13:455][  0]LogIoStore: Display:     MemoryMappedBulkData       0 / 5
-[2025.09.24-13.10.13:455][  0]LogIoStore: Display:     ScriptObjects              0 / 1
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display:     ContainerHeader            0 / 1
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display:     ShaderCodeLibrary          0 / 2
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display:     ShaderCode                 0 / 341
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Source bytes read:
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display:     Zen:                                  0
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display:     Loose File:                 304,393,059
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display:         ExportBundleData        186,079,950 bytes over 1,306 reads
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display:         BulkData                118,294,309 bytes over 190 reads
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display:         MemoryMappedBulkData         18,800 bytes over 10 reads
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display:     Memory:                      22,223,758
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display:         ShaderCodeLibrary           246,440 bytes over 4 reads
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display:         ShaderCode               21,977,318 bytes over 682 reads
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Calculating stats...
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Container Summary
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: ==================
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Container                                               Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: global                                              -/-/-/-/-               1            0.65                 2.41                 2.41 -
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: TestWhiteBoard-Android_ASTC                         C/-/-/I/-            1192          146.81               212.84                91.56 (56.98% Oodle)
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Total                                                                    1193          147.46               215.25                93.97
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Compression block padding:     0.06 MiB
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Container Directory Index
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: ==========================
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Container                                          Size (KiB)
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: global                                                   0.00
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: TestWhiteBoard-Android_ASTC                             39.45
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Container Patch Report
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: ========================
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Container                                             Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: global                                                      1                0                0             0.00             0.00
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: TestWhiteBoard-Android_ASTC                              1192                0             1192             0.00            91.50
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: PackageStore
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: =============
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Container                                          Size (KiB)      Packages #     Localized #
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: TestWhiteBoard-Android_ASTC                                19             653               0
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: Total                                                      19             653               0
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:456][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Input:       653 Packages
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Input:      0.09 GB UExp
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Input:      0.00 GB UAsset
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Input:      0.11 GB UBulk
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Input:      3.31 MB for 155 Global shaders
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Input:      0.92 MB for 69 Shared shaders
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Input:      0.00 MB for 2 Unique shaders
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Input:      6.24 MB for 115 Inline shaders
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Output:     6556 Name map entries
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Output:      756 Imported package entries
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Output:      373 Packages without imports
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Output:        0 Public runtime script objects
-[2025.09.24-13.10.13:457][  0]LogIoStore: Display: Output:     0.00 GB HeaderData
-[2025.09.24-13.10.13:458][  0]LogIoStore: Display: Output:     2.41 MB InitialLoadData
-[2025.09.24-13.10.13:458][  0]LogIoStore: Display: 
-[2025.09.24-13.10.13:463][  0]LogPakFile: Display: UnrealPak executed in 1.864021 seconds
-[2025.09.24-13.10.13:465][  0]LogCore: Engine exit requested (reason: UnrealPak Exiting)
-[2025.09.24-13.10.13:465][  0]LogExit: Preparing to exit.
-[2025.09.24-13.10.13:466][  0]LogExit: Object subsystem successfully closed.
-[2025.09.24-13.10.13:467][  0]LogPakFile: Destroying PakPlatformFile
-[2025.09.24-13.10.13:468][  0]LogExit: Exiting.
-[2025.09.24-13.10.13:526][  0]Log file closed, 09/24/25 16:10:13
+[2025.09.29-09.41.39:823][  0]LogConfig: CVar [[r.DumpShaderDebugInfo:2]] deferred - dummy variable created
+[2025.09.29-09.41.39:823][  0]LogConfig: CVar [[p.chaos.AllowCreatePhysxBodies:1]] deferred - dummy variable created
+[2025.09.29-09.41.39:823][  0]LogConfig: CVar [[fx.SkipVectorVMBackendOptimizations:1]] deferred - dummy variable created
+[2025.09.29-09.41.39:823][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2025.09.29-09.41.39:823][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2025.09.29-09.41.39:823][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.09.29-09.41.39:823][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.09.29-09.41.39:823][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2025.09.29-09.41.39:823][  0]LogInit: Computer: DESKTOP-RI1LMAT
+[2025.09.29-09.41.39:823][  0]LogInit: User: AppleWhite
+[2025.09.29-09.41.39:823][  0]LogInit: CPU Page size=4096, Cores=6
+[2025.09.29-09.41.39:823][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.09.29-09.41.40:146][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2025.09.29-09.41.40:146][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=33.9GB
+[2025.09.29-09.41.40:146][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2025.09.29-09.41.40:146][  0]LogMemory: Process Physical Memory: 54.52 MB used, 55.13 MB peak
+[2025.09.29-09.41.40:146][  0]LogMemory: Process Virtual Memory: 111.07 MB used, 111.07 MB peak
+[2025.09.29-09.41.40:146][  0]LogMemory: Physical Memory: 8566.31 MB used,  7763.99 MB free, 16330.30 MB total
+[2025.09.29-09.41.40:146][  0]LogMemory: Virtual Memory: 13157.72 MB used,  21604.57 MB free, 34762.30 MB total
+[2025.09.29-09.41.40:152][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2025.09.29-09.41.40:152][  0]LogUObjectArray: 438 objects as part of root set at end of initial load.
+[2025.09.29-09.41.40:152][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.09.29-09.41.40:152][  0]LogInit: Using OS detected language ().
+[2025.09.29-09.41.40:152][  0]LogInit: Using OS detected locale ().
+[2025.09.29-09.41.40:152][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2025.09.29-09.41.40:153][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2025.09.29-09.41.40:153][  0]LogInit: Using OS detected language ().
+[2025.09.29-09.41.40:153][  0]LogInit: Using OS detected locale ().
+[2025.09.29-09.41.40:153][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2025.09.29-09.41.40:153][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2025.09.29-09.41.40:153][  0]LogPakFile: Display: ProjectDir: I:/Work/WhiteboardTest/
+[2025.09.29-09.41.40:165][  0]LogIoStore: Display: ==================== IoStore Utils ====================
+[2025.09.29-09.41.40:172][  0]LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'I:\Work\WhiteboardTest\Saved\Cooked\Android_ASTC\TestWhiteBoard\Metadata\Crypto.json'
+[2025.09.29-09.41.40:175][  0]LogIoStore: Display: Container signing - DISABLED
+[2025.09.29-09.41.40:175][  0]LogIoStore: Display: Directory index - ENABLED
+[2025.09.29-09.41.40:175][  0]LogIoStore: Display: Using compression format 'Oodle'
+[2025.09.29-09.41.40:175][  0]LogIoStore: Display: Using memory mapping alignment '16384'
+[2025.09.29-09.41.40:175][  0]LogIoStore: Display: Using compression block size '65536'
+[2025.09.29-09.41.40:175][  0]LogIoStore: Display: Using compression block alignment '0'
+[2025.09.29-09.41.40:175][  0]LogIoStore: Display: Using compression min bytes saved '1024'
+[2025.09.29-09.41.40:175][  0]LogIoStore: Display: Using compression min percent saved '5'
+[2025.09.29-09.41.40:175][  0]LogIoStore: Display: Using max partition size '0'
+[2025.09.29-09.41.40:175][  0]LogIoStore: Display: Not using DDC for compression
+[2025.09.29-09.41.40:175][  0]LogIoStore: Display: Using command list file: 'C:\Users\lasko\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Program+Files+Epic+Games+UE_5.5\IoStoreCommands.txt'
+[2025.09.29-09.41.40:194][  0]LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
+[2025.09.29-09.41.40:194][  0]LogIoStore: Display: Fetched 665 oplog items from Manifest in 0.00 seconds
+[2025.09.29-09.41.40:197][  0]LogIoStore: Display: Parsed 665 oplog items 0.00 seconds, 853 chunks
+[2025.09.29-09.41.40:207][  0]LogIoStore: Display: Using input asset registry: I:/Work/WhiteboardTest/Saved/Cooked/Android_ASTC/TestWhiteBoard/Metadata/DevelopmentAssetRegistry.bin
+[2025.09.29-09.41.40:235][  0]LogIoStore: Display: Loaded 190 chunk hashes from AssetRegistry in 0.04 seconds, 190 hashes updated in 0.00 seconds
+[2025.09.29-09.41.40:238][  0]LogIoStore: Display: Searching for cooked assets in folder 'I:\Work\WhiteboardTest\Saved\Cooked\Android_ASTC'
+[2025.09.29-09.41.40:249][  0]LogIoStore: Display: Found '1515' files
+[2025.09.29-09.41.40:263][  0]LogIoStore: Display: Creating container targets...
+[2025.09.29-09.41.40:266][  0]OodleDataCompression: Display: Oodle v2.9.12 format for pak/iostore with method=Mermaid, level=4=Normal
+[2025.09.29-09.41.40:322][  0]LogIoStore: Display: Parsing packages...
+[2025.09.29-09.41.40:322][  0]LogIoStore: Display: Reading package assets...
+[2025.09.29-09.41.40:330][  0]LogIoStore: Display: Packages read 653 files in 0.01 seconds, 1,030,817 total bytes, 138,920,380 bytes per second
+[2025.09.29-09.41.40:333][  0]LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
+[2025.09.29-09.41.40:363][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 155 groups (66 of them didn't need new indices), average uncompressed size 114195 bytes, min 489 bytes, max 957390 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.09.29-09.41.40:541][  0]LogIoStore: Display: Global-SF_VULKAN_ES31_ANDROID(VULKAN_ES3_1_ANDROID): Recompressed 1433 shaders as 155 groups. Library size changed from 4972 KB (3.48 : 1 ratio) to 3393 KB (5.09 : 1 ratio), 68.24% of previous.
+[2025.09.29-09.41.40:549][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 186 groups (67 of them didn't need new indices), average uncompressed size 202114 bytes, min 325 bytes, max 980800 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.09.29-09.41.40:941][  0]LogIoStore: Display: TestWhiteBoard-SF_VULKAN_ES31_ANDROID(VULKAN_ES3_1_ANDROID): Recompressed 1486 shaders as 186 groups. Library size changed from 9407 KB (3.90 : 1 ratio) to 7337 KB (5.00 : 1 ratio), 78.00% of previous.
+[2025.09.29-09.41.40:943][  0]LogIoStore: Display: Shaders processed in 0.61 seconds
+[2025.09.29-09.41.40:944][  0]LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=6 (12 cores), MaxSourceBufferMemory=3072MiB
+[2025.09.29-09.41.40:946][  0]LogIoStore: Display: Processing redirects...
+[2025.09.29-09.41.40:946][  0]LogIoStore: Display: Creating disk layout...
+[2025.09.29-09.41.40:948][  0]LogIoStore: Display: Ordered 653 packages using fallback bundle order
+[2025.09.29-09.41.40:979][  0]LogIoStore: Display: Serializing container(s)...
+[2025.09.29-09.41.42:980][  0]LogIoStore: Display: Writing chunks 939/1193... [843 compressed] [Physical: 558 MiB, Virtual: 3368 MiB]
+[2025.09.29-09.41.44:417][  0]LogIoStore: Display: Writing and compressing took 3.40 seconds, writes to disk took 3.39 seconds for 98,528,304 bytes @ 29,048,997 bytes per second.
+[2025.09.29-09.41.44:417][  0]LogIoStore: Display: global: Found perfect hashmap for 1 items.
+[2025.09.29-09.41.44:417][  0]LogIoStore: Display: TestWhiteBoard-Android_ASTC: Found perfect hashmap for 1192 items.
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display: Finalize took 0.1 seconds for 2 writers to write 150,996 bytes, 1,053,078 bytes per second
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display: Writing tocs... [Physical: 558 MiB, Virtual: 3370 MiB]
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display: 190 / 1,193 hashes were loaded from the hash database, by type:
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:     BulkData                   190
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display: 843 / 1,193 chunks attempted to compress, by type:
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:     ExportBundleData           653 / 653
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:     BulkData                   190 / 190
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:     MemoryMappedBulkData       0 / 5
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:     ScriptObjects              0 / 1
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:     ContainerHeader            0 / 1
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:     ShaderCodeLibrary          0 / 2
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:     ShaderCode                 0 / 341
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display: Source bytes read:
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:     Zen:                                  0
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:     Loose File:                 304,394,173
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:         ExportBundleData        186,081,064 bytes over 1,306 reads
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:         BulkData                118,294,309 bytes over 190 reads
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:         MemoryMappedBulkData         18,800 bytes over 10 reads
+[2025.09.29-09.41.44:560][  0]LogIoStore: Display:     Memory:                      22,223,758
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display:         ShaderCodeLibrary           246,440 bytes over 4 reads
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display:         ShaderCode               21,977,318 bytes over 682 reads
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Calculating stats...
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Container Summary
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: ==================
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Container                                               Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: global                                              -/-/-/-/-               1            0.65                 2.41                 2.41 -
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: TestWhiteBoard-Android_ASTC                         C/-/-/I/-            1192          146.81               212.84                91.56 (56.98% Oodle)
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Total                                                                    1193          147.46               215.25                93.97
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Compression block padding:     0.06 MiB
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Container Directory Index
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: ==========================
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Container                                          Size (KiB)
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: global                                                   0.00
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: TestWhiteBoard-Android_ASTC                             39.45
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Container Patch Report
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: ========================
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Container                                             Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: global                                                      1                0                0             0.00             0.00
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: TestWhiteBoard-Android_ASTC                              1192                0             1192             0.00            91.50
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: PackageStore
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: =============
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Container                                          Size (KiB)      Packages #     Localized #
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: TestWhiteBoard-Android_ASTC                                19             653               0
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Total                                                      19             653               0
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Input:       653 Packages
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Input:      0.09 GB UExp
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Input:      0.00 GB UAsset
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Input:      0.11 GB UBulk
+[2025.09.29-09.41.44:561][  0]LogIoStore: Display: Input:      3.31 MB for 155 Global shaders
+[2025.09.29-09.41.44:563][  0]LogIoStore: Display: Input:      0.92 MB for 69 Shared shaders
+[2025.09.29-09.41.44:563][  0]LogIoStore: Display: Input:      0.00 MB for 2 Unique shaders
+[2025.09.29-09.41.44:563][  0]LogIoStore: Display: Input:      6.24 MB for 115 Inline shaders
+[2025.09.29-09.41.44:563][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:563][  0]LogIoStore: Display: Output:     6559 Name map entries
+[2025.09.29-09.41.44:563][  0]LogIoStore: Display: Output:      756 Imported package entries
+[2025.09.29-09.41.44:563][  0]LogIoStore: Display: Output:      373 Packages without imports
+[2025.09.29-09.41.44:563][  0]LogIoStore: Display: Output:        0 Public runtime script objects
+[2025.09.29-09.41.44:563][  0]LogIoStore: Display: Output:     0.00 GB HeaderData
+[2025.09.29-09.41.44:563][  0]LogIoStore: Display: Output:     2.41 MB InitialLoadData
+[2025.09.29-09.41.44:563][  0]LogIoStore: Display: 
+[2025.09.29-09.41.44:617][  0]LogPakFile: Display: UnrealPak executed in 4.463804 seconds
+[2025.09.29-09.41.44:648][  0]LogCore: Engine exit requested (reason: UnrealPak Exiting)
+[2025.09.29-09.41.44:649][  0]LogExit: Preparing to exit.
+[2025.09.29-09.41.44:649][  0]LogExit: Object subsystem successfully closed.
+[2025.09.29-09.41.44:650][  0]LogPakFile: Destroying PakPlatformFile
+[2025.09.29-09.41.44:651][  0]LogExit: Exiting.
+[2025.09.29-09.41.44:725][  0]Log file closed, 09/29/25 12:41:44
