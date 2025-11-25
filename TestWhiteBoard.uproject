@@ -5,29 +5,6 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "OculusXR",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/8313d8d7e7cf4e03a33e79eb757bccba",
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Android"
-			]
-		},
-		{
-			"Name": "OculusPlatform",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/7ce814580ba341b4bb5865983fea9d31",
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Android"
-			]
-		},
-		{
-			"Name": "WebView",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e5ece84a234b4ee0b8aa524cd80c175d"
-		},
-		{
 			"Name": "WebBrowserWidget",
 			"Enabled": true
 		},
@@ -75,6 +52,9 @@
 				"Android"
 			]
 		}
+	],
+	"AdditionalPluginDirectories": [
+		"C:/Program Files/Epic Games/UE_5.5/Engine/Plugins"
 	],
 	"TargetPlatforms": [
 		"Android",
